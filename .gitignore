@@ -1,0 +1,22 @@
+# build
+*.exe
+bin
+binary
+*.zip
+
+#log
+*.log
+
+version/version.json
+
+#config
+configs/config.toml
+.vscode
+go.sum
+/build_proto.bat
+tmp
+.idea
+
+#codegen
+gen_*.go
+*.pb.go
